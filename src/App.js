@@ -18,6 +18,7 @@ const App = () => {
     };
 
     useEffect(() => {
+        document.title = 'MovieSpace';
         searchMovies('Avengers');
     }, []);
 
